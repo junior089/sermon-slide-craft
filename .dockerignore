@@ -1,0 +1,25 @@
+# Dependências e artefatos de build (reconstruídos dentro da imagem)
+node_modules
+.output
+.nitro
+.vinxi
+.tanstack
+dist
+dist-ssr
+
+# Segredos e ambiente (injetados em runtime via env_file/environment)
+.env
+.env.*
+
+# Controle de versão, editores e ferramentas locais
+.*
+coverage
+docs
+
+# Logs e diversos
+*.log
+npm-debug.log*
+Dockerfile
+.dockerignore
+docker-compose.yml
+README*.md
